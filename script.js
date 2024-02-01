@@ -16,4 +16,10 @@ setInterval(function() {
     h5timer.innerHTML =  grow;
   }
     
-},35)
+},33)
+var tl = gsap.timeline()
+tl.to("#loader",{
+  opacity:0,
+  duration:0.4,
+  delay:4
+})
